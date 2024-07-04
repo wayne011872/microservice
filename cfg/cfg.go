@@ -3,10 +3,10 @@ package cfg
 import (
 	"context"
 
-	"github.com/94peter/api-toolkit/mid"
-	"github.com/94peter/microservice/di"
-	"github.com/94peter/microservice/grpc_tool/interceptor"
 	"github.com/gin-gonic/gin"
+	"github.com/wayne011872/api-toolkit/mid"
+	"github.com/wayne011872/microservice/di"
+	"github.com/wayne011872/microservice/grpc_tool/interceptor"
 )
 
 type ModelCfg interface {
